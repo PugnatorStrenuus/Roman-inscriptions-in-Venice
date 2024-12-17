@@ -83,6 +83,6 @@ a {
 }
 
 #map {
-    height: 400px;
+    max-width: 100%;
     border: 10px solid #FFFFFF;
 }
