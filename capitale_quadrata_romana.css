@@ -44,7 +44,7 @@ a {
     cursor: url('./images/tpointer_click.png'), auto;
 }
 
-.sectionp {
+.section {
     display: flex;
     flex-wrap: nowrap;
     width: 90%;
