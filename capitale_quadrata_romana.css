@@ -50,10 +50,6 @@ footer {
     color: #FFFFFF;
 }
 
-a {
-    cursor: url('./images/tpointer_click.png'), auto;
-}
-
 .section {
     display: flex;
     flex-wrap: nowrap;
