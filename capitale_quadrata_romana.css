@@ -112,6 +112,11 @@ a {
     padding: 20;
 }
 
+.footer {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
 #map {
     max-width: 100%;
     border: 10px solid #FFFFFF;
