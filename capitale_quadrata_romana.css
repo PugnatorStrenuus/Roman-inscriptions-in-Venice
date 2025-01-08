@@ -143,7 +143,13 @@ a {
         flex: 1 1 100%;
     }
 }
-    
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
 #map {
     max-width: 100%;
     border: 10px solid #FFFFFF;
