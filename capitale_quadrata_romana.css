@@ -95,6 +95,18 @@ a {
     color: #FFFFFF;
 }
 
+.sectionc {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
 #map {
     max-width: 100%;
     border: 10px solid #FFFFFF;
