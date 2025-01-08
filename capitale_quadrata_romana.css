@@ -103,6 +103,8 @@ a {
 }
 
 .sectionc {
+    display: flex;
+    flex-wrap: nowrap;
     width: 90%;
     margin: 20px auto;
     padding: 20px;
@@ -110,41 +112,17 @@ a {
     overflow: hidden;
     background-color: #000000;
     color: #FFFFFF;
+
+.lt {
+    flex: 0 1 auto;
+    box-sizing: border-box;
+    padding: 10px;
 }
 
-.containerf {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    margin: 20px auto;
-    padding: 20px;
-    border-radius: 8px;
-    background-color: #000000;
-    color: #FFFFFF;
-    box-sizing: border-box;
-
-.lt,
-.md,
 .rt {
     flex: 1;
     box-sizing: border-box;
-    margin: 10px;
-}
-
-.lt p,
-.md p,
-.rt p {
-    max-width: 100%;
-    font-size: 10px;
-    margin: 0;
-}
-
-@media (max-width: 768px) {
-    .lt,
-    .md,
-    .rt {
-        flex: 1 1 100%;
-    }
+    padding: 10px;
 }
 
 .no-bullets {
