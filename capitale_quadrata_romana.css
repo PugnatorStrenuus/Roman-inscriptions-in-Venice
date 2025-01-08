@@ -144,3 +144,24 @@ a {
     max-width: 100%;
     border: 10px solid #FFFFFF;
 }
+
+@media (orientation: landscape) {
+    section {
+        flex-direction: row;
+    }
+
+    body {
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    section {
+        flex-direction: column;
+    }
+}
