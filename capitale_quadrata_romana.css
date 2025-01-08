@@ -29,7 +29,6 @@ html, body {
     font-family: 'Segoe UI Symbol', serif;
     height: 100%;
     margin: 0;
-    cursor: url('./imagescursor.png'), auto;
     background-image: url('./images/Marble.jpg')
 }
 
