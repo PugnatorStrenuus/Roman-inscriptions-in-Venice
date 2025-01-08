@@ -103,13 +103,29 @@ a {
 }
 
 .sectionc {
+    display: flex;
+    flex-wrap: nowrap;
     width: 90%;
     margin: 20px auto;
     padding: 20px;
     border-radius: 8px;
+    overflow: hidden;
     background-color: #000000;
     color: #FFFFFF;
+
+.lt, 
+.rt {
     box-sizing: border-box;
+}
+
+.lt {
+    flex: 0 0 25%;
+    padding: 20px 20px 20px 20px;
+}
+
+.rt {
+    flex: 1;
+    padding: 120px 20px 20px 20px;
 }
 
 .ul {
