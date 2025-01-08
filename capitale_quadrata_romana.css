@@ -41,6 +41,8 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+    background-color: #000000;
+    color: #FFFFFF;
 }
 
 a {
@@ -110,11 +112,6 @@ a {
     flex: 1;
     box-sizing: border-box;
     padding: 20;
-}
-
-.footer {
-    background-color: #000000;
-    color: #FFFFFF;
 }
 
 .containerf {
