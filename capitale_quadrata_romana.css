@@ -134,6 +134,15 @@ a {
     margin: 0;
 }
 
+.container {
+    width: 90%;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+}
+
 #map {
     max-width: 100%;
     border: 10px solid #FFFFFF;
