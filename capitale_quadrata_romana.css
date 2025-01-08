@@ -105,6 +105,11 @@ a {
     overflow: hidden;
     background-color: #000000;
     color: #FFFFFF;
+
+.middle {
+    flex: 1;
+    box-sizing: border-box;
+    padding: 20;
 }
 
 #map {
