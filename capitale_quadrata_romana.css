@@ -1,8 +1,9 @@
 h1 {
     text-align: center;
     font-family: 'Cinzel', serif;
-    font-weight: 1000;
+    font-weight: 50;
     color: red;
+    background-color: #0000;
 }
 
 p {
